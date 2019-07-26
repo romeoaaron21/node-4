@@ -47,7 +47,7 @@ required tables setup for our project.
        ports:
          - 5432:5432 # this binds ports from the container to the host system (your computer)
        volumes:
-         - node3db:/var/lib/postgresql/data # binds a folder in the container to a specified volume
+         - node4db:/var/lib/postgresql/data # binds a folder in the container to a specified volume
    volumes:
      node4db: # creates a volume (just data on disk) that docker manages for us.
    ```
